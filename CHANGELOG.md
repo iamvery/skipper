@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Promote phoenix_live_view dependency to all envs. See #3
+
 ## 0.2.1
 
 ### Changed
