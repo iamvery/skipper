@@ -17,7 +17,7 @@ defmodule Skipper.MixProject do
   def project do
     [
       app: :skipper,
-      version: "0.2.1",
+      version: "0.2.2-rc1",
       elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
@@ -42,7 +42,7 @@ defmodule Skipper.MixProject do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:floki, "~> 0.34", only: :test},
-      {:phoenix_live_view, "~> 0.18", only: [:dev, :test]}
+      {:phoenix_live_view, "~> 0.18"}
     ]
   end
 end
