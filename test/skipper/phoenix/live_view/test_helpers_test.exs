@@ -1,12 +1,12 @@
-defmodule Iamvery.Phoenix.LiveView.TestHelpersTest do
+defmodule Skipper.Phoenix.LiveView.TestHelpersTest do
   use ExUnit.Case, async: true
-  doctest Iamvery.Phoenix.LiveView.TestHelpers
+  doctest Skipper.Phoenix.LiveView.TestHelpers
 
   import Phoenix.ConnTest
 
   @endpoint Test.Support.Endpoint
 
-  use Iamvery.Phoenix.LiveView.TestHelpers
+  use Skipper.Phoenix.LiveView.TestHelpers
 
   setup do
     conn = build_conn() |> Plug.Test.init_test_session(%{})

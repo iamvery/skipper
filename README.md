@@ -46,7 +46,7 @@ end
 To:
 
 ```elixir
-use Iamvery.Phoenix.LiveView.TestHelpers
+use Skipper.Phoenix.LiveView.TestHelpers
 
 test "live view", %{conn: conn} do
   start(conn, "/")
