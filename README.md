@@ -14,7 +14,7 @@ by adding `skipper` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:skipper, "~> 0.2.1", only: :test}
+    {:skipper, "~> 0.2.2", only: :test}
   ]
 end
 ```
