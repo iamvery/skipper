@@ -1,4 +1,4 @@
-defmodule Skipper.Phoenix.LiveView.TestHelpers do
+defmodule Skipper.LiveViewTest do
   @moduledoc """
   A set of helper functions that make LiveView tests easier to read and write
   as a pipeline without leaking details of the conn, view, rendering, patching,
@@ -10,7 +10,7 @@ defmodule Skipper.Phoenix.LiveView.TestHelpers do
 
   with (using the helpers takes care of the import for you):
 
-      use Skipper.Phoenix.LiveView.TestHelpers
+      use Skipper.LiveViewTest
 
   And then write tests like:
 
