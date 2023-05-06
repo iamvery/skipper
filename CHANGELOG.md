@@ -6,17 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## 0.2.2
+## [0.2.2] - 2023-05-05
 
 ### Changed
 - Promote phoenix_live_view dependency to all envs. See #3
 
-## 0.2.1
+## [0.2.1] - 2023-05-05
 
 ### Changed
 - Rename modules to be in Skipper namespace rather than Iamvery. See #2
 
-## 0.1.0
+## [0.1.0] - 2023-05-05
 
 ### Ported
 - Moved over Phoenix LiveView testing helpers from https://github.com/iamvery/iamvery-elixir
